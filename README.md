@@ -1,2 +1,0 @@
-# LGMVIP-Web
-Web Development
