@@ -14,16 +14,13 @@
     color:rgb(243, 231, 8);
     font-style: sans-serif;
   }
-  
-  header,
-  form {
+  header,form {
     min-height: 20vh;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-  form input,
-  form button {
+  form input,form button {
     padding: 0.5rem;
     font-size: 2rem;
     border: none;
@@ -44,12 +41,10 @@
     justify-content: center;
     align-items: center;
   }
-  
   .todo-list {
     min-width: 30%;
     list-style: none;
   }
-  
   .todo {
     margin: 0.5rem;
     background: white;
@@ -66,7 +61,6 @@
   .todo li {
     flex: 1;
   }
-  
   .trash-btn,
   .complete-btn {
     background: #ff1100;
@@ -82,22 +76,18 @@
   .todo-item {
     padding: 0rem 0.5rem;
   }
-  
   .fa-trash,
   .fa-check {
     pointer-events: none;
   }
-  
   .fall {
     transform: translateY(10rem) rotateZ(20deg);
     opacity: 0;
   }
-  
   .completed {
     text-decoration: line-through;
     opacity: 0.5;
   }
-  
   /*CUSTOM SELECTOR */
   select {
     -webkit-appearance: none;
@@ -109,7 +99,6 @@
     border: 0 !important;
     background-image: none;
   }
-  
   /* Custom Select */
   .select {
     margin: 1rem;
