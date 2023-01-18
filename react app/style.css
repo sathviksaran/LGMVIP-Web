@@ -3,9 +3,9 @@
     margin: 0;
     padding: 0;
   }
-  
+
   h1 {
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 15px;
   }
   
@@ -14,10 +14,10 @@
     justify-content: space-between;
     align-items: center;
     padding: 15px 10%;
-    background-color: #188fdf;
+    background-color: #df184d;
   }
   
-  .logo-text a,
+  .logo-text h2,
   .cta {
     font-family: "Montserrat", sans-serif;
     font-size: 1.5em;
@@ -37,7 +37,7 @@
   }
   
   .cta:hover {
-    background-color: rgb(255, 0, 149);
+    background-color: rgb(0, 85, 255);
   }
   
   .cards {
@@ -48,7 +48,7 @@
     font-family: "Candara", sans-serif;
     width: 340px;
     overflow: hidden;
-    background: rgba(9, 215, 230, 0.993);
+    background: rgba(9, 230, 208, 0.993);
     box-shadow: 0px 10px 15px 0px rgba(0, 0, 0, 0.8);
     display: inline-block;
     flex-direction: column;
