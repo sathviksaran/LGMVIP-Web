@@ -1,24 +1,17 @@
-const myForm = document.getElementById("myForm");
-
-    
+const myForm = document.getElementById("myForm");    
 var img = document.createElement("img");
 img.id="preview_img";
 const uploaded_img = document.getElementById("img");
 let uploaded_img_src="";
-
 uploaded_img.addEventListener("change",e=>{
     uploaded_img_src=URL.createObjectURL(e.target.files[0]);
 });
-
 myForm.addEventListener("submit", (e) =>{
     e.preventDefault();
-
     alert("Student Enrolled!");
    var std_result = document.getElementById("std_result"); ;
-   
    var t_row = document.getElementById("t_row");
    t_row.style.display="inline-flex";
-
    var e_row = document.createElement("div");
    e_row.classList.add("enroll", "row");
    e_row.id="std_row";
@@ -82,7 +75,6 @@ myForm.addEventListener("submit", (e) =>{
    e_image.id = "e_std_image";
    std_row1.appendChild(e_image);
    var e_std_image = document.getElementById("e_std_image");
-   
    e_std_image.appendChild(img);
    img.src=uploaded_img_src;
    console.log("Working");
